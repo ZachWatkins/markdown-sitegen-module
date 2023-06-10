@@ -1,72 +1,42 @@
-# GitHub Integration
+# Markdown Website Generator
 
-Useful GitHub integration files for saving time.  
-Includes a [documentation site](https://zachwatkins.github.io/.github/) built from markdown and hosted on GitHub Pages.  
+This module is used to generate a website from markdown files, which is useful for hosting a repository's public website on GitHub Pages.
 
-![GitHub Package.json Version](https://img.shields.io/github/package-json/v/zachwatkins/.github)
-![Code Size](https://img.shields.io/github/languages/code-size/zachwatkins/.github)
-![License](https://img.shields.io/github/license/zachwatkins/.github)
-![Open Issues](https://img.shields.io/github/issues-raw/zachwatkins/.github)
+There are many other options to generate sites from Markdown files. My reasons for building my own module:
+
+1. I can meet my own needs within 1000 lines of code.
+2. I would spend nearly as much time learning the existing tool(s) and implementing them as the time spent to create my own and give it simple implementation requirements.
+3. The assurances and peace of mind gained from having my own tool outweighs the time and effort spent to create it.
 
 > IMPORTANT: This is work in progress! The project is subject to significant change until its 1.0.0 release.
 
+![GitHub Package.json Version](https://img.shields.io/github/package-json/v/zachwatkins/markdown-sitegen-module)
+![Code Size](https://img.shields.io/github/languages/code-size/zachwatkins/markdown-sitegen-module)
+![License](https://img.shields.io/github/license/zachwatkins/markdown-sitegen-module)
+![Open Issues](https://img.shields.io/github/issues-raw/zachwatkins/markdown-sitegen-module)
+
 ## Build
 
-![GitHub Pages Build](https://img.shields.io/github/actions/workflow/status/zachwatkins/.github/github-pages.yml?label=GitHub%20Pages&logo=github)
-![Linter Status](https://img.shields.io/github/actions/workflow/status/zachwatkins/.github/lint_js.yml?label=Lint%20JS)
+![GitHub Pages Build](https://img.shields.io/github/actions/workflow/status/zachwatkins/markdown-sitegen-module/github-pages.yml?label=GitHub%20Pages&logo=github)
+![Linter Status](https://img.shields.io/github/actions/workflow/status/zachwatkins/markdown-sitegen-module/lint_js.yml?label=Lint%20JS)
 
 ## Progress
 
-![Closed Issues](https://img.shields.io/github/issues-closed/zachwatkins/.github)
-![Closed Pull Requests](https://img.shields.io/github/issues-pr-closed/zachwatkins/.github)
+![Closed Issues](https://img.shields.io/github/issues-closed/zachwatkins/markdown-sitegen-module)
+![Closed Pull Requests](https://img.shields.io/github/issues-pr-closed/zachwatkins/markdown-sitegen-module)
 
 ## Issues
 
-![Open Issues](https://img.shields.io/github/issues-raw/zachwatkins/.github)
-![Open Bug Issues](https://img.shields.io/github/issues/zachwatkins/.github/bug)
-![Open Feature Issues](https://img.shields.io/github/issues/zachwatkins/.github/feature)
-![Open Pull Requests](https://img.shields.io/github/issues-pr-raw/zachwatkins/.github)
-![Last Commit](https://img.shields.io/github/last-commit/zachwatkins/.github)
+![Open Issues](https://img.shields.io/github/issues-raw/zachwatkins/markdown-sitegen-module)
+![Open Bug Issues](https://img.shields.io/github/issues/zachwatkins/markdown-sitegen-module/bug)
+![Open Feature Issues](https://img.shields.io/github/issues/zachwatkins/markdown-sitegen-module/feature)
+![Open Pull Requests](https://img.shields.io/github/issues-pr-raw/zachwatkins/markdown-sitegen-module)
+![Last Commit](https://img.shields.io/github/last-commit/zachwatkins/markdown-sitegen-module)
 
-## Table of Contents
+## Documentation Files
 
-1. [Use Cases](#use-cases)
-2. [Terms](#terms)
-3. [New Repository Configuration](./content/new-repository-configuration.md)
-4. [Contributing](./CONTRIBUTING.md)
-5. [Code of Conduct](./CODE_OF_CONDUCT.md)
-6. [License](./LICENSE.md)
-7. [Changelog](./CHANGELOG.md)
-8. [Authors](./AUTHORS.md)
-9. [Inspiration](#inspiration)
-
-## Use Cases
-
-I have worked on a number of projects over the years, both personal and professional, and common tasks exist that can be automated using GitHub Actions.
-
-The different ways in which I have worked (some more often than others) can be summed up as follows, in ascending order of complexity:
-
-1. Personal private project
-2. Personal public project
-3. Personal public library
-4. Collaborative project
-6. Collaborative public library
-8. Open source project
-7. Open source library
-
-## Terms
-
-1. Personal - intended for my own use.
-2. Collaborative - working with one or more people I know personally.
-3. Open source - working in public and accepting public requests.
-4. Project - codebase not intended for use within another codebase. Examples: website, theme, CLI-only program.
-5. Library - codebase intended for use by other developers within their code.
-
-## Inspiration
-
-Although many of the files here are based on my own experience and scripts I've written for projects over the years, I drew a lot of inspiration and knowledge from the following repositories that are doing this at a level I can only describe as best in class:
-
-1. [GitHub Docs](https://github.com/github/docs)
-2. [Laravel Framework](https://github.com/laravel/.github)
-
-Some GitHub actions were copied from these repositories as a starting point and if any attribution is warranted to them I do so freely.
+1. [Contributing](./CONTRIBUTING.md)
+2. [Code of Conduct](./CODE_OF_CONDUCT.md)
+3. [License](./LICENSE.md)
+4. [Changelog](./CHANGELOG.md)
+5. [Authors](./AUTHORS.md)
