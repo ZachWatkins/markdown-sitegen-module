@@ -1,0 +1,31 @@
+name: Lint PHP code styling
+
+# **What it does**: Checks code for style using a Composer lint script.
+# **Why we have it**: Maintain readability of code.
+# **Who does it impact**: Maintainers.
+
+on:
+  workflow_call:
+    inputs:
+      php:
+        default: "8.2"
+        type: string
+
+jobs:
+  lint-php:
+    if: github.repository == 'zachwatkins/.github'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ inputs.php }}
+          coverage: none
+
+      - uses: ./.github/actions/php-composer-setup
+
+      - name: Lint
+        run: composer run lint
