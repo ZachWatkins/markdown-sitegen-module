@@ -48,7 +48,7 @@
     "github-markdown-css": "^5.2.0",
     "http": "^0.0.1-security",
     "husky": "^8.0.0",
-    "lint-staged": "^13.2.2",
+    "lint-staged": "^14.0.0",
     "marked": "^5.0.2",
     "marked-gfm-heading-id": "^3.0.3"
   }
